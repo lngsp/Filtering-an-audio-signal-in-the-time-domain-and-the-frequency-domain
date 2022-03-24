@@ -1,0 +1,44 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "Acquisition.h" = "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\SwitchPanels" ;
+LOCATE on "proiect1.c" = "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1" ;
+Object "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.obj" : "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\proiect1.c" ;
+FILENUM on "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.obj" = 1 ;
+DEFPROTS on "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.obj" = "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.obj" = "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.obj.out" ;
+PrjObjects += "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.obj" ;
+Object "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\resources.res" : "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\resources.res" : "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.exe" : "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.exe" : "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\STEFANIA\\OneDrive\\Desktop\\Facultate\\APD-P\\Etapa 2\\proiect1\\cvibuild.proiect1\\Debug\\proiect1.exe" ;

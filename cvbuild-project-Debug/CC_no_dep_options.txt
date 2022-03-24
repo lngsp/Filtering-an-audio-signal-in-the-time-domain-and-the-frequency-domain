@@ -1,0 +1,1 @@
+-force-include-file "Acquisition.h";"c:\Users\STEFANIA\OneDrive\Desktop\Facultate\APD-P\Etapa 2\SwitchPanels\Acquisition.h" -force-include-file "proiect1.c";"c:\Users\STEFANIA\OneDrive\Desktop\Facultate\APD-P\Etapa 2\proiect1\proiect1.c" 

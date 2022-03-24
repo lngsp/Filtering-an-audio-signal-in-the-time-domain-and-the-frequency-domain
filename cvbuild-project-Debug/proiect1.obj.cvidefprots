@@ -1,0 +1,56 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[OnButtonLoad]
+Class="Function"
+Prototype="int OnButtonLoad(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnAlfa]
+Class="Function"
+Prototype="int OnAlfa(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnButtonAplica]
+Class="Function"
+Prototype="int OnButtonAplica(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnMainPanel]
+Class="Function"
+Prototype="int OnMainPanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnSwitchButton]
+Class="Function"
+Prototype="int OnSwitchButton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnExit]
+Class="Function"
+Prototype="int OnExit(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnAnvelopa]
+Class="Function"
+Prototype="int OnAnvelopa(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnSwitchPanelCB]
+Class="Function"
+Prototype="int OnSwitchPanelCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnSpectru]
+Class="Function"
+Prototype="int OnSpectru(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnAplicareFiltre]
+Class="Function"
+Prototype="int OnAplicareFiltre(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnSwitchButtonFreq]
+Class="Function"
+Prototype="int OnSwitchButtonFreq(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnGenerateImg]
+Class="Function"
+Prototype="int OnGenerateImg(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnSpectruImagine]
+Class="Function"
+Prototype="int OnSpectruImagine(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
